@@ -7,13 +7,13 @@ import { useState, useEffect, useRef, useCallback } from 'react'
       import HeroSection from '@/components/organisms/HeroSection'
       import TemplateList from '@/components/organisms/TemplateList'
       import FormulaPalette from '@/components/organisms/FormulaPalette'
-      import FormulaBuilder from '@/components/organisms/FormulaBuilder'
-      import SolutionPanel from '@/components/organisms/SolutionPanel'
-      import Text from '@/components/atoms/Text'
-      import Card from '@/components/atoms/Card'
-      import Icon from '@/components/atoms/Icon'
-      import TextLink from '@/components/atoms/TextLink'
-      const HomePage = () => {
+import FormulaBuilder from '@/components/organisms/FormulaBuilder'
+import SolutionPanel from '@/components/organisms/SolutionPanel'
+import TextComponent from '@/components/atoms/Text'
+import Card from '@/components/atoms/Card'
+import Icon from '@/components/atoms/Icon'
+import TextLink from '@/components/atoms/TextLink'
+const HomePage = () => {
         const [darkMode, setDarkMode] = useState(false)
         const [gradeLevel, setGradeLevel] = useState(4)
         const [templates, setTemplates] = useState([])
@@ -267,11 +267,11 @@ import { useState, useEffect, useRef, useCallback } from 'react'
               transition={{ delay: 0.8 }}
               className="p-6 text-center"
             >
-              <div className="max-w-4xl mx-auto">
+<div className="max-w-4xl mx-auto">
                 <Card className="rounded-2xl p-6">
-                  <Text className="text-white/80 mb-4">
+                  <TextComponent className="text-white/80 mb-4">
                     "Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding." - William Paul Thurston
-                  </Text>
+                  </TextComponent>
                   <div className="flex items-center justify-center space-x-6 text-sm text-white/60">
                     <TextLink>© 2024 MathCraft</TextLink>
                     <Icon name="Dot" />
