@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "question": "Sarah has 5 apples and buys 3 more. How many apples does she have in total?",
+    "formula": "5 + 3",
+    "answer": 8,
+    "difficulty": "easy",
+    "hints": ["Use addition to find the total", "5 + 3 = ?"]
+  },
+  {
+    "id": "2",
+    "question": "A rectangle has a length of 6 cm and width of 4 cm. What is its area?",
+    "formula": "6 × 4",
+    "answer": 24,
+    "difficulty": "easy",
+    "hints": ["Area of rectangle = length × width", "Multiply 6 by 4"]
+  },
+  {
+    "id": "3",
+    "question": "Tom had 15 stickers and gave away 7. How many stickers does he have left?",
+    "formula": "15 - 7",
+    "answer": 8,
+    "difficulty": "easy",
+    "hints": ["Use subtraction", "15 - 7 = ?"]
+  },
+  {
+    "id": "4",
+    "question": "A square garden has sides of 5 meters. What is its area?",
+    "formula": "5 ²",
+    "answer": 25,
+    "difficulty": "medium",
+    "hints": ["Area of square = side × side", "5 × 5 = ?"]
+  },
+  {
+    "id": "5",
+    "question": "24 candies are shared equally among 6 children. How many candies does each child get?",
+    "formula": "24 ÷ 6",
+    "answer": 4,
+    "difficulty": "easy",
+    "hints": ["Use division to share equally", "24 ÷ 6 = ?"]
+  },
+  {
+    "id": "6",
+    "question": "What is the square root of 36?",
+    "formula": "√ 36",
+    "answer": 6,
+    "difficulty": "medium",
+    "hints": ["Which number multiplied by itself equals 36?", "Think: ? × ? = 36"]
+  },
+  {
+    "id": "7",
+    "question": "A triangle has a base of 8 cm and height of 6 cm. What is its area?",
+    "formula": "(8 × 6) ÷ 2",
+    "answer": 24,
+    "difficulty": "medium",
+    "hints": ["Area of triangle = (base × height) ÷ 2", "First multiply 8 × 6, then divide by 2"]
+  },
+  {
+    "id": "8",
+    "question": "If x = 7, what is 2x + 5?",
+    "formula": "2 × 7 + 5",
+    "answer": 19,
+    "difficulty": "medium",
+    "hints": ["Substitute x = 7 into the formula", "Calculate 2 × 7 first, then add 5"]
+  },
+  {
+    "id": "9",
+    "question": "The perimeter of a rectangle is 20 cm. If the length is 6 cm, what is the width?",
+    "formula": "(20 - 2 × 6) ÷ 2",
+    "answer": 4,
+    "difficulty": "hard",
+    "hints": ["Perimeter = 2 × (length + width)", "Rearrange to find width: width = (perimeter ÷ 2) - length"]
+  },
+  {
+    "id": "10",
+    "question": "A circle has a radius of 3 cm. What is its area? (Use π = 3.14)",
+    "formula": "3.14 × 3 ²",
+    "answer": 28.26,
+    "difficulty": "hard",
+    "hints": ["Area of circle = π × radius²", "First calculate 3², then multiply by 3.14"]
+  },
+  {
+    "id": "11",
+    "question": "What is the average of 12, 16, and 20?",
+    "formula": "(12 + 16 + 20) ÷ 3",
+    "answer": 16,
+    "difficulty": "medium",
+    "hints": ["Average = sum of all numbers ÷ count of numbers", "Add all three numbers, then divide by 3"]
+  },
+  {
+    "id": "12",
+    "question": "If y = 4, what is y² + 2y - 3?",
+    "formula": "4 ² + 2 × 4 - 3",
+    "answer": 21,
+    "difficulty": "hard",
+    "hints": ["Substitute y = 4", "Calculate 4² first, then 2×4, then combine"]
+  },
+  {
+    "id": "13",
+    "question": "A book costs $15. If there's a 20% discount, how much is saved?",
+    "formula": "(20 ÷ 100) × 15",
+    "answer": 3,
+    "difficulty": "hard",
+    "hints": ["20% = 20/100", "Multiply the percentage by the original price"]
+  },
+  {
+    "id": "14",
+    "question": "What is 25% of 80?",
+    "formula": "(25 ÷ 100) × 80",
+    "answer": 20,
+    "difficulty": "medium",
+    "hints": ["25% = 25/100 = 0.25", "Multiply 0.25 by 80"]
+  },
+  {
+    "id": "15",
+    "question": "A cube has sides of 4 cm. What is its volume?",
+    "formula": "4 × 4 × 4",
+    "answer": 64,
+    "difficulty": "medium",
+    "hints": ["Volume of cube = side³", "4 × 4 × 4 = ?"]
+  }
+]

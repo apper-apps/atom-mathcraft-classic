@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "expression": "2 + 3",
+    "variables": [],
+    "result": 5,
+    "steps": ["Original: 2 + 3", "Calculate: 2 + 3 = 5"],
+    "gradeLevel": 1
+  },
+  {
+    "id": "2",
+    "expression": "x + 5",
+    "variables": ["x"],
+    "result": 8,
+    "steps": ["Original: x + 5", "Substitute values: 3 + 5", "Calculate: 3 + 5 = 8"],
+    "gradeLevel": 2
+  },
+  {
+    "id": "3",
+    "expression": "a × b",
+    "variables": ["a", "b"],
+    "result": 12,
+    "steps": ["Original: a × b", "Substitute values: 3 × 4", "Calculate: 3 × 4 = 12"],
+    "gradeLevel": 3
+  },
+  {
+    "id": "4",
+    "expression": "10 ÷ 2",
+    "variables": [],
+    "result": 5,
+    "steps": ["Original: 10 ÷ 2", "Calculate: 10 ÷ 2 = 5"],
+    "gradeLevel": 2
+  },
+  {
+    "id": "5",
+    "expression": "x ²",
+    "variables": ["x"],
+    "result": 9,
+    "steps": ["Original: x ²", "Substitute values: 3 ²", "Calculate: 3 × 3 = 9"],
+    "gradeLevel": 4
+  },
+  {
+    "id": "6",
+    "expression": "√ 16",
+    "variables": [],
+    "result": 4,
+    "steps": ["Original: √ 16", "Calculate: √ 16 = 4"],
+    "gradeLevel": 5
+  },
+  {
+    "id": "7",
+    "expression": "(a + b) × c",
+    "variables": ["a", "b", "c"],
+    "result": 15,
+    "steps": ["Original: (a + b) × c", "Substitute values: (2 + 3) × 3", "Calculate parentheses: 5 × 3", "Calculate: 5 × 3 = 15"],
+    "gradeLevel": 6
+  },
+  {
+    "id": "8",
+    "expression": "2 × x + 3",
+    "variables": ["x"],
+    "result": 11,
+    "steps": ["Original: 2 × x + 3", "Substitute values: 2 × 4 + 3", "Calculate multiplication: 8 + 3", "Calculate: 8 + 3 = 11"],
+    "gradeLevel": 5
+  },
+  {
+    "id": "9",
+    "expression": "a ÷ b + c",
+    "variables": ["a", "b", "c"],
+    "result": 7,
+    "steps": ["Original: a ÷ b + c", "Substitute values: 12 ÷ 3 + 3", "Calculate division: 4 + 3", "Calculate: 4 + 3 = 7"],
+    "gradeLevel": 4
+  },
+  {
+    "id": "10",
+    "expression": "x - y + z",
+    "variables": ["x", "y", "z"],
+    "result": 6,
+    "steps": ["Original: x - y + z", "Substitute values: 10 - 3 + (-1)", "Calculate left to right: 7 + (-1)", "Calculate: 7 - 1 = 6"],
+    "gradeLevel": 6
+  }
+]

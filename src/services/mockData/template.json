@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "name": "Simple Addition",
+    "formula": "a + b",
+    "category": "basic",
+    "gradeLevel": 1,
+    "description": "Add two numbers together"
+  },
+  {
+    "id": "2",
+    "name": "Simple Subtraction",
+    "formula": "a - b",
+    "category": "basic",
+    "gradeLevel": 1,
+    "description": "Subtract one number from another"
+  },
+  {
+    "id": "3",
+    "name": "Simple Multiplication",
+    "formula": "a × b",
+    "category": "basic",
+    "gradeLevel": 2,
+    "description": "Multiply two numbers"
+  },
+  {
+    "id": "4",
+    "name": "Simple Division",
+    "formula": "a ÷ b",
+    "category": "basic",
+    "gradeLevel": 2,
+    "description": "Divide one number by another"
+  },
+  {
+    "id": "5",
+    "name": "Area of Rectangle",
+    "formula": "length × width",
+    "category": "geometry",
+    "gradeLevel": 3,
+    "description": "Calculate the area of a rectangle"
+  },
+  {
+    "id": "6",
+    "name": "Perimeter of Rectangle",
+    "formula": "2 × (length + width)",
+    "category": "geometry",
+    "gradeLevel": 3,
+    "description": "Calculate the perimeter of a rectangle"
+  },
+  {
+    "id": "7",
+    "name": "Area of Square",
+    "formula": "side ²",
+    "category": "geometry",
+    "gradeLevel": 4,
+    "description": "Calculate the area of a square"
+  },
+  {
+    "id": "8",
+    "name": "Square Root",
+    "formula": "√ x",
+    "category": "algebra",
+    "gradeLevel": 5,
+    "description": "Find the square root of a number"
+  },
+  {
+    "id": "9",
+    "name": "Linear Equation",
+    "formula": "a × x + b",
+    "category": "algebra",
+    "gradeLevel": 6,
+    "description": "Simple linear equation with one variable"
+  },
+  {
+    "id": "10",
+    "name": "Area of Triangle",
+    "formula": "(base × height) ÷ 2",
+    "category": "geometry",
+    "gradeLevel": 5,
+    "description": "Calculate the area of a triangle"
+  },
+  {
+    "id": "11",
+    "name": "Circumference of Circle",
+    "formula": "2 × 3.14 × radius",
+    "category": "geometry",
+    "gradeLevel": 6,
+    "description": "Calculate the circumference of a circle"
+  },
+  {
+    "id": "12",
+    "name": "Area of Circle",
+    "formula": "3.14 × radius ²",
+    "category": "geometry",
+    "gradeLevel": 7,
+    "description": "Calculate the area of a circle"
+  },
+  {
+    "id": "13",
+    "name": "Average of Numbers",
+    "formula": "(a + b + c) ÷ 3",
+    "category": "statistics",
+    "gradeLevel": 4,
+    "description": "Calculate the average of three numbers"
+  },
+  {
+    "id": "14",
+    "name": "Distance Formula",
+    "formula": "√ ((x2 - x1) ² + (y2 - y1) ²)",
+    "category": "geometry",
+    "gradeLevel": 8,
+    "description": "Calculate distance between two points"
+  },
+  {
+    "id": "15",
+    "name": "Percentage",
+    "formula": "(part ÷ whole) × 100",
+    "category": "arithmetic",
+    "gradeLevel": 5,
+    "description": "Calculate percentage of a number"
+  }
+]
