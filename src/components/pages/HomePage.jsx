@@ -12,7 +12,7 @@ import { useState, useEffect, useRef, useCallback } from 'react'
       import Text from '@/components/atoms/Text'
       import Card from '@/components/atoms/Card'
       import Icon from '@/components/atoms/Icon'
-      
+      import TextLink from '@/components/atoms/TextLink'
       const HomePage = () => {
         const [darkMode, setDarkMode] = useState(false)
         const [gradeLevel, setGradeLevel] = useState(4)
